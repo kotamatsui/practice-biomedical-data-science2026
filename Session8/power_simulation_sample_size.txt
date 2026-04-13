@@ -1,0 +1,61 @@
+########################################################################
+# 片側二項検定  H0: p = p0   vs   H1: p > p0 
+########################################################################
+set.seed(123)            # 乱数シード固定
+alpha   <- 0.025          # 有意水準（片側）
+p0      <- 0.4           # 帰無仮説下の反応率
+p_true  <- 0.65          # 真の反応率（> p0）
+nsim    <- 2000          # シミュレーション回数
+sample_sizes <- seq(10, 100, by = 10) # サンプルサイズの設定
+
+########################################################################
+# シミュレーション検出力と理論検出力
+########################################################################
+sim_power    <- numeric(length(sample_sizes))
+theory_power <- numeric(length(sample_sizes))
+
+for (i in seq_along(sample_sizes)) {
+  n <- sample_sizes[i]
+
+  ## ---- 片側棄却域（上側） --------------------------------------------
+  # crit は P_{H0}(X > crit) ≤ α を満たす最大の閾値
+  # 棄却条件：X > crit
+  crit <- qbinom(1 - alpha, n, p0)   # 小さいほうの分位点
+  
+  # シミュレーション検出力
+  x_sim        <- rbinom(nsim, n, p_true)
+  sim_power[i] <- mean(x_sim > crit)
+  
+  # 理論検出力
+  theory_power[i] <- 1 - pbinom(crit, n, p_true)
+}
+
+########################################################################
+# シミュレーションと理論値の差を確認
+########################################################################
+## データフレーム（確認用）
+df <- data.frame(
+  n            = sample_sizes,
+  sim_power    = sim_power,
+  theory_power = theory_power
+)
+
+df$abs_diff <- abs(df$sim_power - df$theory_power)
+head(df)
+
+########################################################################
+# 検出力曲線の描画 (base graphics)
+########################################################################
+par(cex.main = 2.0, cex.lab = 2.0, cex.axis = 2.0)
+
+plot(df$n, df$sim_power, type = "b", pch = 19, col = "steelblue",
+     ylim = c(0, 1), xlab = "サンプルサイズ n", ylab = "検出力",
+     main = "検出力曲線（片側検定: H0 p = 0.4, H1 p > 0.4）")
+lines(df$n, df$theory_power, type = "b", pch = 17, lty = 2, col = "darkorange")
+abline(h = 0.8, lty = 3)                      # 80% パワーの目安線
+legend("bottomright",
+       legend = c("Simulation", "Theory"),
+       pch    = c(19, 17),
+       lty    = c(1, 2),
+       col    = c("steelblue", "darkorange"),
+       bty    = "n")
