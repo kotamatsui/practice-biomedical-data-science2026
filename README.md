@@ -66,4 +66,4 @@
 -->
 
 ---
-© 2025 Kota Matsui
+© 2026 Kota Matsui
