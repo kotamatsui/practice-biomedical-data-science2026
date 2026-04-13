@@ -24,7 +24,7 @@
 ## 講義スケジュールとコンテンツ
 凡例：📖 スライド資料，💻 Google Colab，💡 slido (質疑応答フォーラム)
 
-### 第1回(4/14): データ解析ソフト「R」事始め, インストール, 環境設定 　[💡](https://app.sli.do/event/wweBAch5K66yHY3wxSLWJk)
+### 第1回(4/14): データ解析ソフト「R」事始め, インストール, 環境設定　[💡](https://app.sli.do/event/wweBAch5K66yHY3wxSLWJk)
 - Rのインストール方法 [📖](Session1/r-install.pdf)
 - RStudioのインストール方法 [📖](Session1/rstudio-install.pdf)
 - R言語で何ができるか？[📖](Session1/R言語で何ができるか.pdf)
