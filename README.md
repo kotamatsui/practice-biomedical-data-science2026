@@ -30,7 +30,7 @@
 - R言語で何ができるか？[📖](Session1/r_language_demo.pdf)
 - R言語事始め [📖](Session1/R言語事始め.pdf)
   - Rの変数とデータ型 [💻](https://colab.research.google.com/drive/1xxZ20hLT_deXhGRLtRpkht2t9KJ6G4cw?usp=sharing)
-  - ベクトル演算 [💻](https://colab.research.google.com/drive/1C_NLAvUe4bMCiv9lQGOqH6wAvTTFd_9P?usp=sharing)
+  <!-- - ベクトル演算 [💻](https://colab.research.google.com/drive/1C_NLAvUe4bMCiv9lQGOqH6wAvTTFd_9P?usp=sharing) -->
   <!-- - Rによる擬似乱数生成 [💻](https://colab.research.google.com/drive/1A6nBKT40T_vSZuXONgFgAgMF8QVzqG7w?usp=sharing) -->
 
 ### 第2回(4/21): 簡単な計算、ベクトル、行列とそれらの計算
