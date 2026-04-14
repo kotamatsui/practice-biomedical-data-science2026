@@ -24,11 +24,11 @@
 ## 講義スケジュールとコンテンツ
 凡例：📖 スライド資料，💻 Google Colab，💡 slido (質疑応答フォーラム)
 
-### 第1回(4/14): データ解析ソフト「R」事始め, インストール, 環境設定　[💡](https://app.sli.do/event/wweBAch5K66yHY3wxSLWJk)
-- Rのインストール方法 [📖](Session1/r-install.pdf)
-- RStudioのインストール方法 [📖](Session1/rstudio-install.pdf)
-- R言語で何ができるか？[📖](Session1/r_language_demo.pdf)
-- R言語事始め [📖](Session1/R言語事始め.pdf)
+### 第1回(4/14): データ解析ソフト「R」事始め, インストール, 環境設定[📖](Session1/introduction_to_r.pdf)　[💡](https://app.sli.do/event/wweBAch5K66yHY3wxSLWJk)
+- Rのインストール方法
+- RStudioのインストール方法
+- R言語で何ができるか？
+- R言語事始め
   - Rの変数とデータ型 [💻](https://colab.research.google.com/drive/1xxZ20hLT_deXhGRLtRpkht2t9KJ6G4cw?usp=sharing)
   <!-- - ベクトル演算 [💻](https://colab.research.google.com/drive/1C_NLAvUe4bMCiv9lQGOqH6wAvTTFd_9P?usp=sharing) -->
   <!-- - Rによる擬似乱数生成 [💻](https://colab.research.google.com/drive/1A6nBKT40T_vSZuXONgFgAgMF8QVzqG7w?usp=sharing) -->
