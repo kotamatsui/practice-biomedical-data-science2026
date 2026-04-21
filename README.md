@@ -33,7 +33,14 @@
   <!-- - ベクトル演算 [💻](https://colab.research.google.com/drive/1C_NLAvUe4bMCiv9lQGOqH6wAvTTFd_9P?usp=sharing) -->
   <!-- - Rによる擬似乱数生成 [💻](https://colab.research.google.com/drive/1A6nBKT40T_vSZuXONgFgAgMF8QVzqG7w?usp=sharing) -->
 
-### 第2回(4/21): 簡単な計算、ベクトル、行列とそれらの計算
+### 第2回(4/21): 簡単な計算、ベクトル、行列とそれらの計算 [📖](Session2/biomedicalDS_practice_session2.pdf)[💡](https://app.sli.do/event/bTkgBJ7tMKyfAx8UDoYLwh)
+- ベクトルオブジェクトとインデックス操作
+- ベクトル演算
+- 行列演算
+- 組み込み関数の利用
+  - ベクトル演算の効果 [💻](https://colab.research.google.com/drive/1C_NLAvUe4bMCiv9lQGOqH6wAvTTFd_9P?usp=sharing) 
+  - 乱数生成の例 [💻](https://colab.research.google.com/drive/1A6nBKT40T_vSZuXONgFgAgMF8QVzqG7w?usp=sharing)
+- 外部パッケージのインストールと利用
 
 ### 第3回(4/28): データセットの作成、加工
 
