@@ -42,7 +42,7 @@
   - 乱数生成の例 [💻](https://colab.research.google.com/drive/1A6nBKT40T_vSZuXONgFgAgMF8QVzqG7w?usp=sharing)
 - 外部パッケージのインストールと利用
 
-### 第3回(4/28): データセットの作成、加工 [📖](Session3/biomedicalDS_practice_session3.pdf)[💡](https://app.sli.do/event/1dsLHob2uZXnaPLAq3GkbG/live/questions)
+### 第3回(4/28): データセットの作成、加工、出力 [📖](Session3/biomedicalDS_practice_session3.pdf)[💡](https://app.sli.do/event/1dsLHob2uZXnaPLAq3GkbG/live/questions)
 - リスト
 - データフレーム
 - ファイルへの出力
