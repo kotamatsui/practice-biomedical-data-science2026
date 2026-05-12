@@ -47,7 +47,7 @@
 - データフレーム
 - ファイルへの出力
 
-### 第4回(5/12): データセットの加工、出力、保存 [📖]()[💡](https://app.sli.do/event/wp2wKuZmHwCmhceESbLsbr/live/questions)
+### 第4回(5/12): データセットの加工、出力、保存 [📖](Session4/biomedicalDS_practice_session4.pdf)[💡](https://app.sli.do/event/wp2wKuZmHwCmhceESbLsbr/live/questions)
 
 ### 第5回(5/19): データの頻度集計
 
