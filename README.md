@@ -53,7 +53,10 @@
 - データセットの形式
 - パッケージを用いたデータフレーム操作
 
-### 第5回(5/19): データの頻度集計
+### 第5回(5/19): データの頻度集計 [📖](Session5/biomedicalDS_practice_session5.pdf)[💡](https://app.sli.do/event/nx4nDW5x9rkD9RJrEeLvC3/live/questions)
+- データの頻度集計
+  - Rの組み込み関数による集計
+  - 外部パッケージを使った集計
 
 ### 第6回(5/26): 記述統計と集計
     
