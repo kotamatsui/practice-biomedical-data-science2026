@@ -58,7 +58,7 @@
 - Rの組み込み関数による集計
 - 外部パッケージを使った集計
 
-### 第6回(5/26): 記述統計と集計 [📖]()[💡](https://app.sli.do/event/asPyC5mB2MgGfP29pvJtn2/live/questions)
+### 第6回(5/26): 記述統計と集計 [📖](Session6/biomedicalDS_practice_session6.pdf)[💡](https://app.sli.do/event/asPyC5mB2MgGfP29pvJtn2/live/questions)
 
 - 連続変数の要約統計量
 - カテゴリカル変数の要約統計量
