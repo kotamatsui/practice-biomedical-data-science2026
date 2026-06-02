@@ -69,11 +69,13 @@
   - Table 1の再現の例2および3および提出課題：喫煙の有無での層別化 -> 割付による層別化
   - 提出課題の形式：csvファイル -> 画像ファイル
     
-### 第7回(6/2): グラフ作成1 [📖]()[💡](https://app.sli.do/event/fYcDWF8dgb9LyKcnTnZpxN/live/questions)
+### 第7回(6/2): グラフ作成1 [📖](Session7/biomedicalDS_practice_session7.pdf)[💡](https://app.sli.do/event/fYcDWF8dgb9LyKcnTnZpxN/live/questions)
 
 - 1次元の変数の可視化：ヒストグラム，累積分布関数，箱ひげ図，グラフの重ね描き
 - 2次元の変数の可視化：散布図，グラフの体裁
 - 生存時間データの可視化：生存時間データの概要，カプランマイヤー曲線の描画
+
+補足資料：base Rによるグラフ作成 [📖](Session7/biomedicalDS_practice_session7_appendix.pdf)
 
 ### 第8回(6/9): グラフ作成2
   
