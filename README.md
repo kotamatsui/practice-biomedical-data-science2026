@@ -79,6 +79,7 @@
 
 ### 第8回(6/9): グラフ作成2
  コーディングテスト：[📖](Session8/biomedicalDS_practice_codingtest.pdf)
+ 
  グループワーク：[📖](Session_groupwork/biomedicalDS_practice_groupwork.pdf)
   
 ### 第9回(6/16): グラフ作成3
