@@ -85,7 +85,7 @@
 ### 第9回(6/16): グラフ作成3
  グループワーク：[📖](Session_groupwork/biomedicalDS_practice_groupwork.pdf)
 
-### 第10回(6/23): 頻度論アプローチとシミュレーション [📖]()[💡](https://app.sli.do/event/pmruJBudepNQMHCcU2CR8o)
+### 第10回(6/23): 頻度論アプローチとシミュレーション [📖](Session10/biomedicalDS_practice_session10.pdf)[💡](https://app.sli.do/event/pmruJBudepNQMHCcU2CR8o)
 - 無作為抽出と統計的推測の概要
 - 大数の法則と中心極限定理のシミュレーションによる理解
 - 反応率の推定と信頼区間，被覆確率の計算
