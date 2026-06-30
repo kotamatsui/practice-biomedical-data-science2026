@@ -90,7 +90,7 @@
 - 大数の法則と中心極限定理のシミュレーションによる理解
 - 反応率の推定と信頼区間，被覆確率の計算
   
-### 第11回(6/30): 統計的推測の実践１　[📖]()[💡](https://app.sli.do/event/vaHzr518EzaMEta8GiMWVx)
+### 第11回(6/30): 統計的推測の実践１　[📖](Session11/biomedicalDS_practice_session11.pdf)[💡](https://app.sli.do/event/vaHzr518EzaMEta8GiMWVx)
 - 統計モデルと回帰モデルの基礎（午前の講義の復習）
 - 線形単回帰モデル
 - ロジスティック回帰モデル
