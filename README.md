@@ -95,7 +95,10 @@
 - 線形単回帰モデル
 - ロジスティック回帰モデル
 
-### 第12回(7/7): 統計的推測の実践２
+### 第12回(7/7): 統計的推測の実践２ [📖](Session12/biomedicalDS_practice_session12.pdf)[💡](https://app.sli.do/event/jwqcb2xo6yrXssN3ufGSDG/live/questions)
+- 仮説検定のロジック，両側・片側検定
+- 帰無仮説，対立仮説，有意水準，p値
+- 第一種の過誤と第二種の過誤
     
 ### 第13回(7/14): サンプルサイズ設計
   
