@@ -1,0 +1,62 @@
+########################################################################
+# 片側二項検定  H0: p = p0   vs   H1: p > p0
+#  n = 20 で固定し，p_true = 0.5, 0.6, 0.7, 0.8 で検出力を評価
+########################################################################
+set.seed(123)            # 乱数シード固定
+alpha   <- 0.025         # 有意水準（片側）
+p0      <- 0.4           # 帰無仮説下の反応率
+p_true_vals <- c(0.5, 0.6, 0.7, 0.8)   # 真の反応率のシナリオ
+nsim    <- 2000          # シミュレーション回数
+n       <- 20            # サンプルサイズ固定
+
+########################################################################
+# 棄却域の計算（n が固定なので 1 回だけで良い）
+########################################################################
+crit <- qbinom(1 - alpha, n, p0)   # P_H0( X > crit ) ≤ α
+# 棄却条件：X > crit
+
+########################################################################
+# シミュレーション検出力と理論検出力
+########################################################################
+sim_power    <- numeric(length(p_true_vals))
+theory_power <- numeric(length(p_true_vals))
+
+for (i in seq_along(p_true_vals)) {
+  p_true <- p_true_vals[i]
+  
+  ## 1) シミュレーション検出力
+  x_sim        <- rbinom(nsim, n, p_true)
+  sim_power[i] <- mean(x_sim > crit)
+  
+  ## 2) 理論検出力
+  theory_power[i] <- 1 - pbinom(crit, n, p_true)
+}
+
+########################################################################
+# 結果まとめ
+########################################################################
+df <- data.frame(
+  p_true       = p_true_vals,
+  sim_power    = sim_power,
+  theory_power = theory_power,
+  abs_diff     = abs(sim_power - theory_power)
+)
+head(df)
+
+########################################################################
+# 検出力曲線の描画 (base graphics)
+########################################################################
+par(cex.main = 2.0, cex.lab = 2.0, cex.axis = 2.0)
+
+plot(df$p_true, df$sim_power, type = "b", pch = 19, col = "steelblue",
+     ylim = c(0, 1), xlab = expression(p[true]),
+     ylab = "検出力",
+     main = "検出力曲線（n = 20, 片側検定: H0 p = 0.4, H1 p > 0.4）")
+lines(df$p_true, df$theory_power, type = "b", pch = 17, lty = 2, col = "darkorange")
+abline(h = 0.8, lty = 3)                      # 80% パワーの目安線
+legend("bottomright",
+       legend = c("Simulation", "Theory"),
+       pch    = c(19, 17),
+       lty    = c(1, 2),
+       col    = c("steelblue", "darkorange"),
+       bty    = "n")
