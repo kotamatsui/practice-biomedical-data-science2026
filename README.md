@@ -102,7 +102,7 @@
 
 260714追記：検出力曲線のサンプルコード：[💻](Session12/power_simulation_true_response_rate.txt)
     
-### 第13回(7/14): サンプルサイズ設計 [📖]()
+### 第13回(7/14): サンプルサイズ設計 [📖](Session13/biomedicalDS_practice_session13.pdf)
 - 一群の割合の差の検定
 - 二群の検定
   - 連続アウトカム：平均の差
